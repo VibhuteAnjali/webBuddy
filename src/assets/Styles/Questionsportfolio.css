@@ -1,0 +1,23 @@
+form p {
+  font-size: 1.3em;
+}
+.flex-r {
+  display: flex;
+  gap: 3em;
+  align-items: center;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.width-15 {
+  width: 15em;
+}
+
+.project {
+  display: block;
+}
+.flex-c {
+  flex-direction: column;
+}

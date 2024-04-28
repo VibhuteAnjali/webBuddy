@@ -1,0 +1,48 @@
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-container1 {
+  padding: 3em 7em;
+  margin-left: 1em;
+}
+
+.img-container {
+  width: 50%;
+}
+.img-container img {
+  width: 40em;
+  /* margin-top: -7em; */
+}
+.btn1 {
+  margin-top: 2.1em;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  padding: 1em 3em;
+  /* border-radius: 2em; */
+  background-color: #000000;
+  color: white;
+  transition: all;
+  transition-duration: 200ms;
+}
+.btn1:hover {
+  box-shadow: rgb(47, 47, 47) -3px 3px 27px -6px;
+  transform: scale(1.03);
+}
+.glass {
+  background: #d9a7c7;
+  background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7);
+  background: linear-gradient(to right, #dddbf6, #ead7d8);
+}
+.main-text {
+  font-size: 4em;
+}
+.tagline {
+  font-size: 1.5em;
+  margin: 0.6em 0em;
+}
+.w-m50 {
+  width: 57%;
+}

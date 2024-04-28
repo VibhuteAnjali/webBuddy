@@ -1,0 +1,48 @@
+ul {
+  margin: 0;
+}
+.navbar-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2em 9em;
+  border-bottom: 1px solid;
+}
+.gs {
+  background-color: #090909;
+  color: white;
+  border: none;
+  font-size: 1em;
+  /* border-radius: 2em; */
+  cursor: pointer;
+  padding: 1em 2em;
+  transition: all;
+  transition-duration: 200ms;
+}
+.gs:hover {
+  box-shadow: rgb(47, 47, 47) -3px 3px 27px -6px;
+  transform: scale(1.03);
+}
+.logo .lora {
+  font-weight: 600;
+  font-size: 1.5em;
+}
+.logo .quicksand {
+  font-size: 1.2em;
+}
+.logo {
+  font-size: 2.2em;
+}
+.link {
+  list-style: none;
+  text-decoration: none;
+  font-size: 1.4em;
+  font-family: Quick sand;
+  color: black;
+}
+.link:hover {
+  font-size: 1.6em;
+  font-weight: 800;
+  color: #000000;
+  font-style: italic;
+}

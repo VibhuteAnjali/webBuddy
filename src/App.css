@@ -1,0 +1,21 @@
+body {
+  margin: 0 0;
+}
+.home {
+  margin: 0;
+}
+.lora {
+  font-family: "Lora";
+}
+.quicksand {
+  font-family: "Quick Sand";
+}
+.italic {
+  font-style: italic;
+}
+.center {
+  text-align: center;
+}
+button {
+  cursor: pointer !important;
+}

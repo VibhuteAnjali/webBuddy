@@ -1,0 +1,105 @@
+.mainQ {
+  width: 70em;
+  margin: auto;
+  margin-top: 2em;
+}
+.progress-bar {
+  background: linear-gradient(to right, #b5b1eb, #ca7c80);
+}
+.progress {
+  border-radius: 1.25rem;
+  height: 2em;
+}
+.numbering {
+  display: flex;
+  gap: 16.5em;
+}
+.numbering div {
+  font-size: 1.2em;
+  font-family: "Lora";
+}
+.boxes img {
+  width: 10em;
+}
+.text-heading {
+  padding: 2em;
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ans div {
+  border: 1px solid;
+}
+.ans {
+  display: flex;
+  gap: 2em;
+}
+.ans div {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3em;
+  border: 1px solid lightgray;
+  width: 17em;
+  text-align: center;
+  padding: 1em;
+}
+.ans div:hover {
+  box-shadow: 8px -5px 20px lightgray;
+  transform: translate(10px, 10px);
+  transition-duration: 300ms;
+}
+.ans p {
+  font-size: 1.2em;
+  margin-top: 2em;
+}
+.btn-box {
+  display: flex;
+  margin-top: 2em;
+  width: -webkit-fill-available;
+  justify-content: space-evenly;
+}
+.btn-box button {
+  padding: 0.5em 2em;
+  /* border-radius: 2em; */
+  border: none;
+  background-color: #010101;
+  color: white;
+  font-size: 1.2em;
+}
+.active {
+  background: linear-gradient(to right, #dddbf6, #ead7d8);
+  color: black;
+  font-weight: 600;
+}
+.inputT {
+  width: 22em !important;
+  padding: 0.5em;
+  border-radius: 2em !important;
+  border: 1px solid black !important;
+  margin: 1em !important;
+  color: black !important;
+  font-size: 1.2em;
+  height: 3.6em;
+}
+.btn {
+  padding: 0.5em 2em;
+  /* border-radius: 2em; */
+  border: none;
+  background-color: #000000;
+  color: white;
+  font-size: 1.2em;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+.no-gap {
+  gap: 0em;
+}

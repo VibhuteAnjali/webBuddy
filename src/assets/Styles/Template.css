@@ -1,0 +1,61 @@
+.templateBox img {
+  width: 100%;
+  border-radius: 2em;
+}
+.templateBox {
+  display: flex;
+  gap: 3em;
+  padding: 2em;
+  cursor: pointer;
+  align-items: center;
+}
+.templateBox div {
+  border: 1px solid;
+  border-radius: 2em;
+}
+.templateBox div:hover {
+  box-shadow: -4px 8px 106px 0px rgba(49, 47, 47, 0.299);
+  transform: translateX(10px);
+  transition: all;
+  transition-duration: 200ms;
+}
+.temp1,
+.temp2,
+.temp3 {
+  position: relative;
+}
+.desc {
+  position: absolute;
+  z-index: 2;
+  /* top: 8em; */
+  top: 85.5%;
+  padding: 1em;
+  width: 100%;
+  letter-spacing: 1;
+  /* left: 0px; */
+  color: white;
+  border: none !important;
+  text-align: center;
+  /* border-radius: 26px 1px 43px 23px; */
+  font-size: 1.2em;
+  background-color: #000000;
+  border-radius: 1px 1px 43px 43px !important;
+  transition-duration: 300ms;
+  transition: all;
+}
+.chosen {
+  opacity: 50%;
+  transform: translateX(10px);
+}
+.temp-btn {
+  width: 10%;
+  margin: auto;
+  text-align: center;
+  padding: 1em;
+  font-size: 1.2em;
+  background-color: black;
+  color: WHITE;
+  border-radius: 2em;
+  display: block;
+  cursor: pointer;
+}

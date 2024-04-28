@@ -1,0 +1,160 @@
+.header {
+  height: 100vh;
+  position: relative;
+}
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+}
+.h2-header {
+  margin: 0;
+  padding-bottom: 1em;
+  width: 70%;
+}
+.width-50-p {
+  width: 90%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar li a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: black;
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin: 2em;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo {
+  font-family: "Playfair Display", serif;
+}
+.header img {
+  width: 100%;
+  position: absolute;
+  top: 0em;
+  z-index: -1;
+  height: 100%;
+  left: 0em;
+}
+.taglineP {
+  padding: 6em;
+  background-color: rgba(0, 0, 0, 0.449);
+  color: white;
+  width: fit-content;
+  height: fit-content;
+}
+.tagline h2 {
+  font-size: 4em;
+  font-family: "Playfair Display", serif;
+  /* width: 44%; */
+  margin-top: 1em;
+}
+.tagline p {
+  font-size: 1em;
+  width: fit-content;
+}
+.background-black {
+  background: #0000005e;
+  color: white;
+  padding: 2em;
+  width: 50vw;
+}
+.btn {
+  margin-top: 1em;
+  padding: 1em 2em;
+  border: none;
+  color: white;
+  background-color: black;
+}
+.about h2 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding: 2em;
+  font-size: 1.9em;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  width: 50%;
+  width: 50%;
+  padding: 4em;
+  font-size: 1.3em;
+  line-height: 1.4;
+  font-family: "Playfair Display";
+}
+.image {
+  width: 50%;
+  text-align: center;
+}
+.image img {
+  width: 60%;
+}
+.flex img {
+  width: 100%;
+  height: 40em;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6em;
+  margin: 4em;
+}
+.gallery h2 {
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  padding: 2em;
+  font-size: 1.9em;
+}
+.flex img:hover {
+  box-shadow: 9px 12px 20px 0px #b09e9e;
+  cursor: pointer;
+}
+.gallery {
+  margin: 2em;
+}
+.w-30 {
+  width: 28% !important;
+}
+.footer {
+  background-color: black;
+}
+.footer svg {
+  width: 2em;
+  height: 2em;
+}
+.footer .Alllinks {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em;
+}
+.footer li {
+  list-style: none;
+  padding: 1em;
+  cursor: pointer;
+}
+.footer .icons {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  justify-content: center;
+  gap: 3em;
+}
